@@ -1,0 +1,49 @@
+@media (max-width: 500px){
+    body{
+        
+        width: 100%;
+        height: 100%;
+       
+        overflow: hidden;
+    }
+
+    .principal{
+        max-height: 25vh;
+        width: 200px;
+    }
+
+    .principal img{
+        max-width: 150px ;
+    }
+
+    .sub{
+        width: 70px;
+        height: 20px;
+        padding: 10px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .linha1{
+        padding: 15px;
+        font-size: 10px;
+    }
+
+    .titulo{
+        font-size:20px;
+    }
+
+    .p1{
+        font-size: 10px;
+        line-height: 12px;
+        padding: 15px;
+        position: relative;
+         top: -18px; 
+    }
+    .fim .nome{
+        
+        font-size: 10px;
+        top:-40px
+        
+    }
+}

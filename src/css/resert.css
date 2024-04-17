@@ -1,0 +1,72 @@
+/* Reset CSS */
+
+/* Box sizing border-box por padrão */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remover decoração de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remover margem padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remover espaçamento entre linhas */
+body,
+ul,
+ol,
+blockquote {
+  line-height: 1.5;
+}
+
+/* Remover decoração de link padrão */
+a {
+  text-decoration: none;
+}
+
+/* Remover estilo de lista padrão */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Remover estilo de botão padrão */
+button {
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+/* Remover estilo de formulário padrão */
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+/* Remover elementos de foco padrão */
+:focus {
+  outline: none;
+}

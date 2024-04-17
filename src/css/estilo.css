@@ -1,0 +1,71 @@
+body{
+    background-color:hsl(47, 88%, 63%);
+    overflow: hidden;
+}
+.principal{
+    background-color: white;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 50vh;
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 7%);
+    box-shadow:  20px 20px 20px hsl(0, 0%, 7%);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.caixa img{
+    border-radius: 10px;
+    position: relative;
+    top: 10px; /* Posicionado no topo inicialmente */
+    left: 50%;
+    transform: translateX(-50%);
+    
+    transition: top 1s ease; /* Transição suave de 1 segundo */
+}
+.sub{
+    background-color:hsl(47, 88%, 63%);
+    position: relative;
+    top: 20px;
+    left:10px;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.linha1{
+    padding: 15px;
+    font-size: 16px;
+}
+
+.titulo{
+    padding: 15px;
+    font-size: 25px;
+}
+
+.p1{
+    padding: 15px;
+    font-size: 16px;
+    color:hsl(0, 0%, 50%);
+}
+
+.fim img{
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+
+}
+.fim .nome{
+    padding: 15px;
+    font-size: 16px;
+    position: relative;
+    top: -18px; 
+}
